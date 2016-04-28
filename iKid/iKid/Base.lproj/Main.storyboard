@@ -58,21 +58,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eatlocal" translatesAutoresizingMaskIntoConstraints="NO" id="sW3-WK-vp2">
-                                <rect key="frame" x="20" y="58" width="560" height="534"/>
+                                <rect key="frame" x="20" y="79" width="560" height="474"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="MvD-Ka-pen" firstAttribute="top" secondItem="58W-82-EIg" secondAttribute="bottom" constant="545" id="3Pq-9T-52Z"/>
-                            <constraint firstItem="sW3-WK-vp2" firstAttribute="top" secondItem="58W-82-EIg" secondAttribute="bottom" constant="3" id="6N3-re-8CO"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="sW3-WK-vp2" secondAttribute="trailing" id="CxX-KO-w21"/>
-                            <constraint firstItem="MvD-Ka-pen" firstAttribute="top" secondItem="sW3-WK-vp2" secondAttribute="bottom" constant="8" id="LbE-96-Sqn"/>
-                            <constraint firstItem="58W-82-EIg" firstAttribute="centerX" secondItem="tPQ-RE-TKH" secondAttribute="centerX" id="QFT-w7-bjH"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="sW3-WK-vp2" secondAttribute="leading" id="aWb-oj-d4u"/>
-                            <constraint firstItem="58W-82-EIg" firstAttribute="leading" secondItem="tPQ-RE-TKH" secondAttribute="leadingMargin" constant="32" id="f6y-3s-ln4"/>
-                            <constraint firstItem="sW3-WK-vp2" firstAttribute="centerX" secondItem="tPQ-RE-TKH" secondAttribute="centerX" id="q6q-eO-SSE"/>
-                            <constraint firstItem="58W-82-EIg" firstAttribute="top" secondItem="RXe-mb-jAe" secondAttribute="bottom" id="qx1-7A-bWO"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="58W-82-EIg" secondAttribute="trailing" constant="32" id="wmV-aO-JYb"/>
+                            <constraint firstItem="58W-82-EIg" firstAttribute="centerX" secondItem="tPQ-RE-TKH" secondAttribute="centerX" id="78K-MV-KCV"/>
+                            <constraint firstItem="58W-82-EIg" firstAttribute="leading" secondItem="tPQ-RE-TKH" secondAttribute="leadingMargin" constant="32" id="879-QL-yg3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="58W-82-EIg" secondAttribute="trailing" constant="32" id="Xqp-CF-8N6"/>
+                            <constraint firstItem="sW3-WK-vp2" firstAttribute="top" secondItem="RXe-mb-jAe" secondAttribute="bottom" constant="59" id="YQW-Ag-5sl"/>
+                            <constraint firstItem="MvD-Ka-pen" firstAttribute="top" secondItem="sW3-WK-vp2" secondAttribute="bottom" constant="47" id="cDZ-00-Xw2"/>
+                            <constraint firstItem="58W-82-EIg" firstAttribute="top" secondItem="RXe-mb-jAe" secondAttribute="bottom" id="kab-m7-O00"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sW3-WK-vp2" secondAttribute="trailing" id="lca-xX-xgy"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="sW3-WK-vp2" secondAttribute="leading" id="qhB-rg-Ymf"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -272,7 +270,7 @@
                                 <string key="text">Dad: When this heals, will I be able to play the piano?
 Doctor: Yes, you'll be fine in a few days.
 </string>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="25"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -312,9 +310,9 @@ Doctor: Yes, you'll be fine in a few days.
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Dad: Perfect, I've always wanted to be able to play an instrument." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="EYK-Ih-Y6N">
-                                <rect key="frame" x="20" y="28" width="560" height="102"/>
+                                <rect key="frame" x="20" y="84" width="560" height="46"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -324,15 +322,16 @@ Doctor: Yes, you'll be fine in a few days.
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="mfj-Dp-CkG" firstAttribute="top" secondItem="58g-8r-QK5" secondAttribute="bottom" constant="145" id="GzC-GE-yHi"/>
-                            <constraint firstItem="EYK-Ih-Y6N" firstAttribute="top" secondItem="67s-He-RUM" secondAttribute="bottom" constant="8" id="MFg-FE-A0o"/>
-                            <constraint firstItem="58g-8r-QK5" firstAttribute="centerX" secondItem="7GK-g0-wup" secondAttribute="centerX" id="Oa2-hn-0Jn"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="EYK-Ih-Y6N" secondAttribute="trailing" id="UTG-NU-mex"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="EYK-Ih-Y6N" secondAttribute="leading" id="Y40-eJ-2AZ"/>
-                            <constraint firstItem="58g-8r-QK5" firstAttribute="top" secondItem="EYK-Ih-Y6N" secondAttribute="bottom" constant="16" id="kXs-1j-Nfa"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="58g-8r-QK5" secondAttribute="leading" id="l56-1u-QZT"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="58g-8r-QK5" secondAttribute="trailing" id="rj0-Z0-Yie"/>
-                            <constraint firstItem="EYK-Ih-Y6N" firstAttribute="centerX" secondItem="7GK-g0-wup" secondAttribute="centerX" id="w0K-sr-fOX"/>
+                            <constraint firstItem="58g-8r-QK5" firstAttribute="top" secondItem="EYK-Ih-Y6N" secondAttribute="bottom" constant="16" id="8W0-Yg-769"/>
+                            <constraint firstItem="mfj-Dp-CkG" firstAttribute="top" secondItem="58g-8r-QK5" secondAttribute="bottom" constant="145" id="ITb-6Z-8mS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EYK-Ih-Y6N" secondAttribute="trailing" id="Kv8-Bx-R3A"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="58g-8r-QK5" secondAttribute="trailing" id="aD6-0n-XT5"/>
+                            <constraint firstItem="58g-8r-QK5" firstAttribute="centerX" secondItem="7GK-g0-wup" secondAttribute="centerX" id="gBa-oY-vJN"/>
+                            <constraint firstItem="58g-8r-QK5" firstAttribute="width" secondItem="EYK-Ih-Y6N" secondAttribute="width" id="jAZ-tT-Z1E"/>
+                            <constraint firstItem="EYK-Ih-Y6N" firstAttribute="centerX" secondItem="7GK-g0-wup" secondAttribute="centerX" id="sQI-qQ-s84"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="58g-8r-QK5" secondAttribute="leading" id="v5i-cr-pFb"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="EYK-Ih-Y6N" secondAttribute="leading" id="xYB-hg-ZV8"/>
+                            <constraint firstItem="58g-8r-QK5" firstAttribute="top" secondItem="67s-He-RUM" secondAttribute="bottom" constant="126" id="zvr-En-Lda"/>
                         </constraints>
                     </view>
                 </viewController>
