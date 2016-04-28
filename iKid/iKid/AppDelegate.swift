@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  iKid
 //
-//  Created by Peter Freschi on 4/27/16.
+//  Created by Peter Freschi on 4/28/16.
 //  Copyright © 2016 Peter Freschi. All rights reserved.
 //
 
@@ -16,6 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        let color = UIColor(red: 0/255.0, green: 186/255.0, blue: 9/255.0, alpha: 1.0)
+        UITabBar.appearance().tintColor = color
+        
         return true
     }
 
