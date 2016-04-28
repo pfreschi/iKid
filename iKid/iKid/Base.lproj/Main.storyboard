@@ -92,11 +92,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="eggmethod" translatesAutoresizingMaskIntoConstraints="NO" id="Dek-Iz-qdQ">
-                                <rect key="frame" x="20" y="81" width="560" height="511"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eggmethod" translatesAutoresizingMaskIntoConstraints="NO" id="Dek-Iz-qdQ">
+                                <rect key="frame" x="20" y="81" width="560" height="195"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" text="He returns with 13 apples." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="FdY-oL-5wz">
-                                <rect key="frame" x="20" y="20" width="560" height="53"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="He returns with 13 apples." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="FdY-oL-5wz">
+                                <rect key="frame" x="155" y="20" width="291" height="53"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="25"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -131,11 +131,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="tearablepun" translatesAutoresizingMaskIntoConstraints="NO" id="kap-7G-ycg">
-                                <rect key="frame" x="20" y="65" width="560" height="409"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tearablepun" translatesAutoresizingMaskIntoConstraints="NO" id="kap-7G-ycg">
+                                <rect key="frame" x="20" y="126" width="560" height="348"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="they're TEARABLE!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="WhV-uI-hkJ">
-                                <rect key="frame" x="191" y="28" width="219" height="29"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="they're TEARABLE!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="WhV-uI-hkJ">
+                                <rect key="frame" x="191" y="28" width="219" height="90"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="25"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -145,8 +145,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="obC-ff-DwG" firstAttribute="top" secondItem="kap-7G-ycg" secondAttribute="bottom" constant="126" id="6ha-mR-hCr"/>
+                            <constraint firstItem="kap-7G-ycg" firstAttribute="centerY" secondItem="QL8-YH-Rjq" secondAttribute="centerY" id="MJa-xK-Ble"/>
                             <constraint firstItem="kap-7G-ycg" firstAttribute="top" secondItem="WhV-uI-hkJ" secondAttribute="bottom" constant="8" id="O35-Nc-cwt"/>
                             <constraint firstItem="WhV-uI-hkJ" firstAttribute="top" secondItem="63U-6d-Lpu" secondAttribute="bottom" constant="8" id="XxV-2X-L7H"/>
+                            <constraint firstItem="kap-7G-ycg" firstAttribute="top" secondItem="WhV-uI-hkJ" secondAttribute="bottom" constant="8" id="ZZr-4B-CAX"/>
                             <constraint firstItem="WhV-uI-hkJ" firstAttribute="centerX" secondItem="QL8-YH-Rjq" secondAttribute="centerX" id="cbw-e7-0ql"/>
                             <constraint firstAttribute="leadingMargin" secondItem="kap-7G-ycg" secondAttribute="leading" id="r3g-lQ-r9i"/>
                             <constraint firstAttribute="trailingMargin" secondItem="kap-7G-ycg" secondAttribute="trailing" id="uIa-X1-fUn"/>
